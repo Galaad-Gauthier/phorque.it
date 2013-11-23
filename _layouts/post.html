@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+
+<article class="post">
+  {% if page.wide_image %}
+    <img class="wide" src="{{page.wide_image}}" />
+  {% endif %}
+  <div class="content">
+    {% if page.title %}
+    <h3>{{page.title}}</h3>
+    {% endif %}
+    {{content}}
+  </div>
+  <ul class="illustrations">
+   {% for video in page.videos %}
+   <li>
+     <iframe src="{{video}}" frameborder="0" allowfullscreen></iframe>
+   </li>
+   {% endfor %}
+   {% for image in page.images %}
+    <li>
+      <img class="small" src="{{image}}" />
+    </li>
+   {% endfor %}
+  </ul>
+</article>

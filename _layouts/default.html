@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Victor Goya</title>
+    <link href="/css/reset.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="site">
+      <div class="header">
+        <h1>
+	  <em>Victor</em> Goya
+	  <img src="/images/phorque2.png" alt="sona" />
+	</h1>
+        <ul>
+          <li>
+            <a href="/" class="{% if page.url == '/index.html' %}active{% endif %}">Présentation</a>
+          </li>
+          <li>
+            <a href="/cv" class="{% if page.url == '/cv/index.html' %}active{% endif %}">CV</a>
+          </li>
+          <li>
+            <a href="http://github.com/phorque" target="_blank">Github</a>
+          </li>
+          <li>
+            <a href="http://twitter.com/ph0rqu3" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="http://www.linkedin.com/profile/view?id=90688063" target="_blank">Linkedin</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

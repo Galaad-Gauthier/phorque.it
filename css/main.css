@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+html, body {
+  background-color: #333;
+  font-family: 'Varela Round', sans-serif; }
+
+.site {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 15px 0px #000; }
+  @media (max-width: 960px) {
+    .site {
+      width: 100%; } }
+  .site .header {
+    background-color: #00939a;
+    text-align: center; }
+    .site .header em {
+      font-weight: bold; }
+    .site .header h1, .site .header h2 {
+      color: #fff;
+      text-transform: uppercase; }
+    .site .header h1 {
+      padding-top: 40px;
+      padding-bottom: 30px;
+      font-size: 90px;
+      letter-spacing: 4px; }
+    .site .header img {
+	height: 125px;
+	border-radius: 100%;
+	float: right;
+	margin: -26px 53px 0 0;
+      }
+    .site .header ul {
+      border-top: 1px solid #fff;
+      text-align: left;
+      font-size: 0; }
+      .site .header ul li {
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 25px;
+        text-align: center;
+        line-height: 40px; }
+        .site .header ul li:nth-child(1) {
+          width: 264px; }
+        .site .header ul li:nth-child(2) {
+          width: 114px; }
+        .site .header ul li:nth-child(3) {
+          width: 194px; }
+        .site .header ul li:nth-child(4) {
+          width: 194px; }
+        .site .header ul li:nth-child(5) {
+          width: 194px; }
+        .site .header ul li a {
+          text-decoration: none;
+          color: #fff;
+          display: block; }
+          .site .header ul li a:hover, .site .header ul li a.active {
+            background-color: #fff;
+            color: #00939a; }
+          .site .header ul li a em {
+            color: #966a13; }
+  .site .main {
+    padding: 40px 40px; }
+  
+    .site .main p {
+      line-height: 120%;
+      font-size: 16px; }
+      .site .main p a {
+        text-decoration: none;
+	color: #0088cc; }
+        .site .main p a:hover {
+          text-decoration: underline; 
+	  color: #004499; }
+        .site .main p a:visited {
+	  color: #004499; }
+    .site .main ul.posts {
+      font-size: 0; }
+      .site .main ul.posts li {
+        padding: 0px 21px 40px 21px;
+        display: inline-block;
+        width: 250px;
+        vertical-align: top; }
+        .site .main ul.posts li img {
+          width: 100%;
+          height: 250px; }
+        .site .main ul.posts li a {
+          color: #000;
+          font-weight: bold;
+          text-decoration: none; }
+          .site .main ul.posts li a:hover img {
+            opacity: 0.7; }
+        .site .main ul.posts li h3 {
+          font-size: 25px;
+          text-transform: uppercase;
+          padding: 20px 0 10px 0; }
+    .site .main article {
+      padding: 0px 21px; }
+      .site .main article h3 {
+        font-size: 30px;
+        padding: 20px 0 10px 0;
+        text-transform: uppercase; }
+      .site .main article.post .content {
+        width: 544px;
+        display: inline-block;
+        vertical-align: top; }
+        .site .main article.post .content p {
+          text-align: left; }
+      .site .main article.post img {
+        width: 100%;
+        height: 250px; }
+      .site .main article.post ul.illustrations {
+        display: inline-block;
+        width: 290px;
+        font-size: 0; }
+        .site .main article.post ul.illustrations li {
+          display: inline-block;
+          padding: 20px 0 0 20px; }
+          .site .main article.post ul.illustrations li img {
+            width: 250px;
+	    border-radius: 100%;
+	  }
+          .site .main article.post ul.illustrations li iframe {
+            width: 520px;
+	    height: 390px;
+	  }
+      .site .main article ul.cv {
+        padding: 0 0 20px 0; }
+        .site .main article ul.cv li {
+          clear: both;
+          padding: 15px 0 0 0; }
+          .site .main article ul.cv li p {
+	    margin-right: 160px; }
+          .site .main article ul.cv li > span.title {
+            min-width: 120px;
+            display: inline-block;
+            color: #966a13;
+            font-weight: bold; }
+            .site .main article ul.cv li > span.title > a {
+		margin-right: 3px;
+            }
+          .site .main article ul.cv li > span.complement {
+            float: right;
+            color: #666; }
+          .site .main article ul.cv li > ul {
+	      margin: 0 140px 0 18px; }
+            .site .main article ul.cv li > ul > li {
+		line-height: 120%;
+		text-indent: -18px;
+		padding: 5px 0 0 0; }
+            .site .main article ul.cv li > ul > li:before {
+		content: "–";
+		margin-right: 3px; }
