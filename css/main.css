@@ -103,8 +103,23 @@ html, body {
         width: 544px;
         display: inline-block;
         vertical-align: top; }
-        .site .main article.post .content p {
+        .site .main article.post .content > p {
+	  margin-top: 30px;
+          line-height: 165%;
           text-align: left; }
+        .site .main article.post .content ul {
+	    margin-top: 15px;
+	}
+        .site .main article.post .content ul li {
+          margin-top: 10px;
+	}
+        .site .main article.post .content ul li p {
+          line-height: 165%;
+	}
+        .site .main article.post .content ul li a {
+	    font-size: 120%;
+	    letter-spacing: 120%;
+	}
       .site .main article.post img {
         width: 100%;
         height: 250px; }
